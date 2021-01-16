@@ -5,6 +5,8 @@ This repo includes a custom Elite Dangerous keypad for CustomKeypad iOS app as w
 
 CustomKeypad for iOS allows for invisible buttons. So this is essentially a background with invisible buttons over the top. 
 
+![Screenshot](https://i.imgur.com/90tRskF.png)
+
 
 
 ## CustomKeypad Help
@@ -47,7 +49,7 @@ Vector graphics have been provided (`.AI` , `.EPS` & `.SVG`) and can be used or 
 
 There are similar Air Keyboard/Keypad apps on iOS and Android. If you use an app that allows buttons to be invisible, whilst allowing interaction, the process for creating this layout is to:
 
-1. place the buttons over the background image 
+1. place the buttons over the background image (use @2x on retina displays)
 2. assign a keypress to the button
 3. set the width and height *(See table below)*
 4. hide the button
